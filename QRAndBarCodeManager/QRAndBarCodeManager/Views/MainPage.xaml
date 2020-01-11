@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="QRAndBarCodeManager.MainPage"
+             Title="QR and Bar Code Manager">
+    <StackLayout>
+        <Frame>
+            <StackLayout Margin="5">
+                <Label Text="Welcome to QR and Barcode reader and manager!" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"
+                        FontSize="Medium"
+                        TextColor="Black"/>
+            </StackLayout>
+        </Frame>
+        <Image Source="CodeReaderLogo.png"/>
+        <Button Text="Read QR or Bar code"
+                Command="{Binding ReadCode}"
+                VerticalOptions="EndAndExpand"/>
+        <Button Text="Create a QR Code"
+                Command="{Binding CreateQRCode}"/>
+    </StackLayout>
+
+</ContentPage>

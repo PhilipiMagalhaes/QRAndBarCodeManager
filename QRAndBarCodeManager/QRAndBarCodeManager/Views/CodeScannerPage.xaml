@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:scanner="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="QRAndBarCodeManager.Views.CodeScannerPage"
+             Title="Scanning">
+    <ContentPage.Content>
+        <Grid>
+            <scanner:ZXingScannerView
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                AutomationId="zxingScannerView"
+                IsScanning="{Binding IsScanning}"
+                IsAnalyzing="{Binding IsAnalyzing,Mode=TwoWay}" 
+                Result="{Binding Result, Mode=TwoWay}"
+                ScanResultCommand="{Binding ScanResultCommand}" />
+            <scanner:ZXingDefaultOverlay 
+                TopText="Hold your phone up to the barcode" 
+                BottomText="Scanning will happen automatically"
+                Opacity="0.9"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
