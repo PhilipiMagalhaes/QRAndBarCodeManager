@@ -29,8 +29,6 @@ namespace QRAndBarCodeManager.ViewModels
 
         private void GenerateCodeExecute(object obj)
         {
-            var SelectedCodeFormat = CrossSecureStorage.Current.GetValue("CurrentCodeFormat");
-            if ( SelectedCodeFormat == "QR")
             BarCodeFormat = BarcodeFormat.QR_CODE;
 
             CodeValue = DataValue;
