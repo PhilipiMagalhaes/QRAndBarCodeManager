@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:code="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
-             x:Class="QRAndBarCodeManager.Views.CodeCreatorPage">
+             x:Class="QRAndBarCodeManager.Views.CodeCreatorPage"
+             Title="Create your QR code">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Enter your data."
