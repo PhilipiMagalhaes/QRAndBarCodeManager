@@ -6449,10 +6449,13 @@ namespace QRAndBarCodeManager.Droid
 			public const int notify_panel_notification_icon_bg = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int tooltip_frame_dark = 2131165498;
+			public const int splash = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int tooltip_frame_light = 2131165499;
+			public const int tooltip_frame_dark = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public const int tooltip_frame_light = 2131165500;
 			
 			static Drawable()
 			{
@@ -9070,6 +9073,9 @@ namespace QRAndBarCodeManager.Droid
 			
 			// aapt resource value: 0x7F0E0171
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624305;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int theme_Splash = 2131624452;
 			
 			// aapt resource value: 0x7F0E0188
 			public const int Widget_AppCompat_ActionBar = 2131624328;
