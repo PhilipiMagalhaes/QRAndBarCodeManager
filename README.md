@@ -8,7 +8,7 @@
 - Plugin.Permissions
 - Xamarin.Essentials
 
-### Donwload release:
+### Download release:
 [Download apk from Google Drive](https://drive.google.com/file/d/1HCn77-QpHCBG4TeCNe3QQ_2rVeozEgti/view?usp=sharing)
 
 ### Screenshots:
